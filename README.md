@@ -14,6 +14,35 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Using JSON SERVER
+
+Used Json-server for sample API data
+Json Data contains the following 
+{
+  "colors": [
+    {
+      "100": "#000000",
+      "200": "#f0f0f0",
+      "color": "black"
+    },
+    {
+      "100": "#ffffff",
+      "200": "#fffff0",
+      "color": "white"
+    },
+    {
+      "100": "#ff0000",
+      "200": "#ff5050",
+      "color": "red"
+    },
+    {
+      "100": "#0066ff",
+      "200": "#3399ff",
+      "color": "blue"
+    }
+  ]
+}
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
