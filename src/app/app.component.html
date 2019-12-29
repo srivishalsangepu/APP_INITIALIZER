@@ -1,0 +1,9 @@
+<ul>
+  <li><a routerLink='login'>Login</a></li>
+  <li><a routerLink='home'>Home</a></li>
+  <li><a routerLink='services'>services</a></li>
+</ul>
+<div *ngFor="let color of color">
+<li>{{color.color}}</li>
+</div>
+<router-outlet></router-outlet>
